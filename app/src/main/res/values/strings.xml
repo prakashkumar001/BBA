@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BBA Ministries</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="our_ultimate"> \u2022 Each ! \n\u2022  Reach !! \n\u2022  Preach !!!</string>
+    <string name="everything_christ"> \u2022 Church Planting. \n\u2022  Helping the needy. \n\u2022  Reach the unreached.\n\u2022  Illumine the youth. \n\u2022  Seminars and Crusades.\n\u2022 Tracts and Magazine. </string>
+    <string name="action_settings">Settings</string>
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+    <string name="prompt">Prayer Request for</string>
+    <string name="app_id">1750687425242635</string> <!--948391901907104-->
+    <string name="login_instructions">Login to twiter</string>
+    <string name="share_instructions">Enter share message</string>
+    <string name="btn_login">Login to Twitter</string>
+    <string name="btn_share">Share</string>
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://www.bbaministries.org</string>
+    <string name="twitter_consumer_key">dEKyGeszJW1rQdsKVigsptnLp</string> <!--vM5RNi5CCodJnL7e5BOA-->vM5RNi5CCodJnL7e5BOA
+    <string name="twitter_consumer_secret">Fnpmz4yASdtO3ObZZ13c13tosrCyNbOxukwntr5uCPO9kzeowq</string><!--FQNS0eBbM8J5DDjDglLCwOvAUUesYhN5uFxdxjKLgk-->FQNS0eBbM8J5DDjDglLCwOvAUUesYhN5uFxdxjKLgk
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+</resources>

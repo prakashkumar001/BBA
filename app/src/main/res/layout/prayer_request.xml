@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prayer Request"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <EditText
+                android:id="@id/name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:inputType="text"
+                android:background="@drawable/editext_border"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:paddingRight="10dp"
+                android:background="@drawable/editext_border"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            >
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Phone"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:paddingRight="10dp"
+                android:background="@drawable/editext_border"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            >
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editext_border"
+                android:spinnerMode="dialog"
+                android:textColor="@android:color/black"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+
+            >
+
+            <EditText
+                android:id="@+id/specialrequest"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Special Requests"
+                android:paddingLeft="20dp"
+                android:gravity="top"
+                android:inputType="text"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:background="@drawable/editext_border"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                />
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:background="#faa71c"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

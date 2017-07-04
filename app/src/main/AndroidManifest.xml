@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bba.ministries">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".Common.GlobalClass"
+        android:theme="@style/MyMaterialTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme">
+
+        </activity>
+
+        <activity android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".PromiseCardActivity"
+            android:theme="@style/MyMaterialTheme"
+            />
+        <activity android:name=".PromiseCardViewPage"
+            android:theme="@style/MyMaterialTheme"
+            />
+
+        <activity android:name=".Events"
+            android:theme="@style/MyMaterialTheme"
+            />
+        <activity android:name=".EventDetailActivity"
+            android:theme="@style/MyMaterialTheme"
+            />
+        <activity android:name=".WebSite"
+            android:theme="@style/MyMaterialTheme"
+            />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".pdfdownload.PdfDownloadTask"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+       <!-- <activity android:name=".pdfdownload.PdfDownloadTask"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>-->
+
+        <provider
+            android:authorities="com.facebook.app.FacebookContentProvider1750687425242635"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+    </application>
+
+</manifest>

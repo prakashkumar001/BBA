@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:weightSum="1.5"
+            android:padding="1dp"
+            android:background="#ccc"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".4"
+                android:padding="1dp"
+
+                android:layout_height="150dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:background="#faa71c"
+                    android:orientation="vertical"
+
+                    >
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/childs"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.1"
+                android:background="@android:color/white"
+                android:layout_height="150dp"
+                android:weightSum="2.5"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                   android:layout_weight="1.5"
+                    >
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="left|center"
+                    />
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Senior Pastor"
+                    android:textStyle="italic"
+                    android:textSize="22dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="14dp"
+                    android:typeface="serif"
+                    android:gravity="left|center"
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="1dp"
+                    android:orientation="vertical"
+
+                    >
+
+
+                    <LinearLayout
+                        android:id="@+id/lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="4"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+                        <ImageView
+                            android:id="@+id/fb"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="#3b5998"
+                            android:padding="11dp"
+                            android:src="@mipmap/facebook_logo"
+                            android:layout_height="wrap_content"
+
+                            />
+
+                        <View
+                            android:id="@+id/fbview"
+                            android:layout_width="1dp"
+                            android:layout_weight="0.01"
+                            android:layout_height="wrap_content"/>
+
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:padding="11dp"
+                            android:background="#55acee"
+                            android:src="@mipmap/twitter_logo"
+                            />
+
+                        <View
+                            android:id="@+id/twitterview"
+                            android:layout_width="1dp"
+                            android:layout_weight="0.01"
+                            android:layout_height="wrap_content"/>
+
+                        <ImageView
+                            android:id="@+id/email"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:padding="11dp"
+                            android:background="#c71610"
+                            android:src="@mipmap/mail_logo"/>
+                        />
+                        <View
+                            android:id="@+id/emailview"
+                            android:layout_width="1dp"
+                            android:layout_weight="0.01"
+                            android:layout_height="wrap_content"/>
+
+
+                        <ImageView
+                            android:id="@+id/phone"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:padding="11dp"
+                            android:background="#0D9AA1"
+                            android:src="@mipmap/phone_logo"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>

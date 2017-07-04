@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="255dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/cardview_dark_background"
+        card_view:cardCornerRadius="1dp"
+        android:elevation="3dp"
+        >
+
+
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:scaleType="fitXY"
+           android:src="@drawable/childs"
+           />
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#eaedf2"
+            android:layout_marginTop="199dp"
+            android:layout_height="1dp"/>
+
+        <!--<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_marginTop="200dp"
+                        >
+
+                        <Button
+                            android:id="@+id/download"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:drawableLeft="@mipmap/download"
+                            android:text="Download"
+                            android:textColor="@android:color/white"
+                            android:layout_height="match_parent" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="0.01"
+                            android:background="#eaedf2"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:id="@+id/view"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="View"
+                            android:drawableLeft="@mipmap/view"
+                            android:textColor="@android:color/white"
+                            android:layout_height="50dp" />
+
+                    </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="195dp"
+            android:weightSum="2.01"
+            android:orientation="horizontal"
+
+            >
+        <LinearLayout
+            android:id="@+id/download"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:weightSum=".9"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".15"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                >
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/download"
+                />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_weight=".5"
+                android:textColor="@android:color/white"
+                android:text="DOWNLOAD"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.01"
+            android:layout_marginTop="5dp"
+            android:background="#eaedf2"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:id="@+id/views"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum=".5"
+            android:background="#faa71c"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                >
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/view"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:textColor="@android:color/white"
+                android:text="VIEW"
+                />
+
+        </LinearLayout>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+    
+    
+    
+    

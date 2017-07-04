@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="183dp"
+        card_view:cardCornerRadius="2dp"
+        android:elevation="3dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/jesus2"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#eaedf2"
+            android:layout_marginTop="140dp"
+            android:layout_height="1dp"/>
+
+        <!--<LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_marginTop="200dp"
+                        >
+
+                        <Button
+                            android:id="@+id/download"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:drawableLeft="@mipmap/download"
+                            android:text="Download"
+                            android:textColor="@android:color/white"
+                            android:layout_height="match_parent" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="0.01"
+                            android:background="#eaedf2"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:id="@+id/view"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:text="View"
+                            android:drawableLeft="@mipmap/view"
+                            android:textColor="@android:color/white"
+                            android:layout_height="50dp" />
+
+                    </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:weightSum="2.01"
+            android:orientation="horizontal"
+
+            >
+
+
+            <LinearLayout
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingLeft="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="Jesus.jpg"
+
+                    />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.01"
+                android:layout_marginTop="5dp"
+                android:background="#eaedf2"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/download"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:paddingLeft="35dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="6dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/download"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:text="DOWNLOAD"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+

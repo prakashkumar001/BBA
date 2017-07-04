@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+
+
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+      <!--  <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ourstory_backgroud"
+            />-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Story"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            />
+
+
+<!--&lt;!&ndash;
+        <TextView
+            android:id="@+id/ourstorytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:lineSpacingExtra="5dp"
+            android:text="Bible Believers Assembly ministries founded by Rev.Dr.P.Balasundaram with a divine vision to heal millions of brokenhearted people through the everlasting love and compassion of Jesus Christ. The ministry operates with a dedicated mission. “To sow the seed of Word and Faith for all people” – who are sick and troubled, having none to intercede for them so as to receive miracles from the Almighty God. Thus, Bible Believers Assembly Ministry is fully committed to bring God’s immense blessings and His healing touch to millions of brokenhearted people in their soul, mind and body through its different facets."
+            android:textSize="18dp"
+            android:textColor="#333333"
+            />
+&ndash;&gt;
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our ultimate aim is to,"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/our_ultimate"
+            android:textSize="18dp"
+            android:textColor="#333333"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are doing everything in CHRIST,"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:text="@string/everything_christ"
+            android:textColor="#333333"
+            />-->
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </WebView>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
