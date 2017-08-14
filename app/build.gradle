@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.bba.ministries"
         minSdkVersion 11
@@ -38,8 +38,11 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:4.1.0'
     compile 'com.github.rey5137:material:1.2.2'
     compile files('libs/twitter4j-core-4.0.4.jar')
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
 
 
 
     testCompile 'junit:junit:4.12'
 }
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

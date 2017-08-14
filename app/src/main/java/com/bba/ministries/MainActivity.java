@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import com.bba.ministries.Common.GlobalClass;
 import com.bba.ministries.Utils.AnimatedExpandableListView;
@@ -36,6 +37,7 @@ import com.bba.ministries.fragments.OurPastors;
 import com.bba.ministries.fragments.OurStory;
 import com.bba.ministries.fragments.PrayerRequest;
 import com.bba.ministries.pdfdownload.PdfDownloadTask;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -68,6 +70,10 @@ public class MainActivity extends AppCompatActivity
        // left=(ImageView) findViewById(R.id.left);
        // right=(ImageView) findViewById(R.id.right);
 
+        Toast.makeText(getApplicationContext(), FirebaseInstanceId.getInstance().getToken(),Toast.LENGTH_SHORT).show();
+
+        String token=FirebaseInstanceId.getInstance().getToken();
+       // Log.i("TOKEN","TOKEN"+);
 
         mExpandableListView = (AnimatedExpandableListView) findViewById(R.id.navList);
         frame = (FrameLayout) findViewById(R.id.container);

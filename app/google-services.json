@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1031349631336",
+    "firebase_url": "https://api-project-1031349631336.firebaseio.com",
+    "project_id": "api-project-1031349631336",
+    "storage_bucket": "api-project-1031349631336.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031349631336:android:a21291a6e5818034",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebasenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031349631336-jl2oorbr11lva0kquvc2gl16ivdam0ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyu9IGhf4pVABjtAqaQ_55RI_jp0oQVw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031349631336:android:6d81a76116897338",
+        "android_client_info": {
+          "package_name": "com.bba.ministries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031349631336-jl2oorbr11lva0kquvc2gl16ivdam0ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyu9IGhf4pVABjtAqaQ_55RI_jp0oQVw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
